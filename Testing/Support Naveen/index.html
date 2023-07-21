@@ -3,32 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <title>SupportNaveen</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
 
   <body>
     <aside>
+      <a href="index.html">
+        <img class="bg" src="images/BG.jpg" alt="bg" />
+      </a>
       <div class="side-menu">
-        <a href="https://www.w3schools.com/html/default.asp">Home</a>
-        <a href="https://www.w3schools.com/css/default.asp">Tutorials</a>
-        <a href="https://www.w3schools.com/js/default.asp">Tools</a>
-        <a href="https://www.w3schools.com/java/default.asp">Interview Q&A</a>
-        <a href="https://www.w3schools.com/python/default.asp">For Support</a>
-        <a href="https://www.w3schools.com/sql/default.asp">About</a>
-        <a href="https://www.w3schools.com/sql/default.asp">More</a>
+        <a href="index.html">➤ Home</a>
+        <a href="tutorials.html">➤ Tutorials</a>
+        <a href="tools.html">➤ Tools</a>
+        <a href="interviewQ&A.html">➤ Interview Q&A</a>
+        <a href="forsupport.html">➤ For Support</a>
+        <a href="about.html">➤ About</a>
+        <a href="more.html">➤ More</a>
       </div>
     </aside>
 
     <div class="main-body-wrapper">
       <header>
         <div class="main-head">
-          <img class="logo" src="images/MyLogo.png" alt="" />
+          <a href="index.html">
+            <img class="logo" src="images/MyLogo.png" alt="MLogo" />
+          </a>
           <h1 class="title">Support Naveen</h1>
+        </div>
+
+        <div class="navlogin">
+          <a href="#login" class="nlogin"><b>Login</b></a>
+          <a href="#signup"><b>Sign In &nbsp; &nbsp; |</b></a>
         </div>
 
         <div class="toolbar">
@@ -60,7 +71,13 @@
       <main>
         <div class="main-wrapper">
           <section>
-            <h2>Types of Web Testing</h2>
+            <h1>What is Software Testing</h1>
+            <br />
+            <p>
+              Software testing is the process of evaluating software to find
+              defects. It helps to ensure that the software meets its
+              requirements and works as expected.
+            </p>
             <ul>
               <li>
                 Functional testing: We verify that your web application or
@@ -189,6 +206,7 @@
           </section>
         </div>
       </main>
+      <div class="page-top-button" onclick="scrollToTop()">Top</div>
       <footer>
         <p>&copy; 2023 Spport Naveen. All rights reserved.</p>
       </footer>
